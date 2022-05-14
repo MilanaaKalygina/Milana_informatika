@@ -1,0 +1,13 @@
+program 1
+ var g,b,s,p : real;
+begin
+ writeln('Вычисление площади и периметра прямоугольника');
+ write('Введите величину g>');
+ readln(g);
+ write('Введите величину b>');
+ readln(b); 
+ s:= g*b
+ p:= 2*(g+b);
+ writeln('s=' p:3:1);
+ writeln('p=' s:3:1);
+end.
